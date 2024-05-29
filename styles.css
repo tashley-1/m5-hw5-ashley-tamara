@@ -1,0 +1,95 @@
+/* styles.css */
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://www.toptal.com/designers/subtlepatterns/uploads/5-dots.png');
+    background-repeat: repeat;
+}
+
+header {
+    background-color: pink;
+    color: black;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #b0b0b0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: pink;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.content {
+    flex: 3;
+    background-color: pink;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-right: 20px;
+}
+
+.profile-pic {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+    width: 100px; /* Set the width to make the image small */
+    height: 100px; /* Set the height to make the image small */
+    object-fit: cover; /* Ensure the image covers the area without distortion */
+}
+
+aside {
+    flex: 1;
+    background-color: pink;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.content {
+    list-style: none; /* Remove bullets from the list */
+}
+
+.social-links {
+    list-style: none; /* Remove bullets from the list */
+}
+
+footer {
+    background-color: lightpink;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
